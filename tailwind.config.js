@@ -10,7 +10,7 @@ export default {
         primary: 'var(--aw-color-primary)',
         secondary: '',
         accent: 'var(--aw-color-accent)',
-        default: 'var(--aw-color-text-default)',
+        default: '',
         muted: 'var(--aw-color-text-muted)',
       },
       fontFamily: {
