@@ -37,7 +37,7 @@ import '@fontsource-variable/inter';
     --aw-color-bg-page-dark: rgb(3 6 32);
 
     ::selection {
-      background-color: rgb(10, 4, 47);
+      background-color: rgb(16, 16, 16);
     }
   }
 
@@ -56,8 +56,8 @@ import '@fontsource-variable/inter';
     --aw-color-bg-page: rgb(3 6 32);
 
     ::selection {
-      background-color: rgb(10, 4, 47);
-      color: rgb(10, 4, 47);
+      background-color: black;
+      color: snow;
     }
   }
 </style>
