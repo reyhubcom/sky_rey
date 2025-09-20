@@ -8,7 +8,7 @@ export default {
     extend: {
       colors: {
         primary: 'var(--aw-color-primary)',
-        secondary: '',
+        secondary: 'var(--aw-color-secondary)',
         accent: 'var(--aw-color-accent)',
         default: 'var(--aw-color-text-default)',
         muted: 'var(--aw-color-text-muted)',
