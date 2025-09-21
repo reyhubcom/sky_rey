@@ -3,165 +3,176 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Homes',
+      text: 'Exchange',
       links: [
         {
-          text: 'SaaS',
-          href: getPermalink('/homes/saas'),
+          text: 'Exchange Bitcoin [ BTC ]',
+          href: getPermalink('/homes/btc'),
         },
         {
-          text: 'Startup',
-          href: getPermalink('/homes/startup'),
+          text: 'Exchange Ethereum [ ETH ]',
+          href: getPermalink('/homes/eth'),
         },
         {
-          text: 'Mobile App',
-          href: getPermalink('/homes/mobile-app'),
+          text: 'Exchange Ripple [ XRP ]',
+          href: getPermalink('/homes/xrp'),
         },
         {
-          text: 'Personal',
-          href: getPermalink('/homes/personal'),
+          text: 'Exchange Binance [ BNB ]',
+          href: getPermalink('/homes/bnb'),
+        },
+        {
+          text: 'Exchange Cardano [ ADA ]',
+          href: getPermalink('/homes/ada'),
+        },
+        {
+          text: 'Exchange Cosmos [ ATOM ]',
+          href: getPermalink('/homes/atom'),
         },
       ],
     },
     {
-      text: 'Pages',
+      text: 'Buy',
       links: [
         {
-          text: 'Features (Anchor Link)',
-          href: getPermalink('/#features'),
+          text: 'Buy Bitcoin [ BTC ]',
+          href: getPermalink('#'),
         },
         {
-          text: 'Services',
-          href: getPermalink('/services'),
+          text: 'Buy Ethereum [ ETH ]',
+          href: getPermalink('#'),
         },
         {
-          text: 'Pricing',
-          href: getPermalink('/pricing'),
+          text: 'Buy Ripple [ XRP ]',
+          href: getPermalink('#'),
         },
         {
-          text: 'About us',
-          href: getPermalink('/about'),
+          text: 'Buy Binance [ BNB ]',
+          href: getPermalink('#'),
         },
         {
-          text: 'Contact',
-          href: getPermalink('/contact'),
+          text: 'Buy Solana [ SOL ]',
+          href: getPermalink('#'),
+        },
+         {
+          text: 'Buy Algorand [ ALGO ]',
+          href: getPermalink('#'),
+        },
+
+      ],
+    },
+    {
+      text: 'Sell',
+      links: [
+        {
+          text: 'Sell Bitcoin [ BTC ]',
+          href: getPermalink('#'),
         },
         {
-          text: 'Terms',
-          href: getPermalink('/terms'),
+          text: 'Sell Ethereum [ ETH ]',
+          href: getPermalink('#'),
         },
         {
-          text: 'Privacy policy',
-          href: getPermalink('/privacy'),
+          text: 'Sell Binance [ BNB ]',
+          href: getPermalink('#'),
+        },
+        {
+          text: 'Sell Solana [ SOL ]',
+          href: getPermalink('#'),
+        },
+        {
+          text: 'Sell Ripple [ XRP ]',
+          href: getPermalink('#'),
+        },
+        {
+          text: 'Sell Algorand [ ALGO ]',
+          href: getPermalink('#'),
         },
       ],
     },
     {
-      text: 'Landing',
+      text: 'Support',
       links: [
         {
-          text: 'Lead Generation',
-          href: getPermalink('/landing/lead-generation'),
+          text: 'How it Work',
+          href: getPermalink('#'),
         },
         {
-          text: 'Long-form Sales',
-          href: getPermalink('/landing/sales'),
+          text: 'Contact Support',
+          href: getPermalink('#'),
         },
         {
-          text: 'Click-Through',
-          href: getPermalink('/landing/click-through'),
+          text: 'Help Centre',
+          href: getPermalink('#'),
         },
         {
-          text: 'Product Details (or Services)',
-          href: getPermalink('/landing/product'),
+          text: 'Check Exchange Status',
+          href: getPermalink('#'),
         },
         {
-          text: 'Coming Soon or Pre-Launch',
-          href: getPermalink('/landing/pre-launch'),
-        },
-        {
-          text: 'Subscription',
-          href: getPermalink('/landing/subscription'),
+          text: 'FAQ',
+          href: getPermalink('#'),
         },
       ],
     },
-    {
-      text: 'Blog',
-      links: [
-        {
-          text: 'Blog List',
-          href: getBlogPermalink(),
-        },
-        {
-          text: 'Article',
-          href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
-        },
-        {
-          text: 'Article (with MDX)',
-          href: getPermalink('markdown-elements-demo-post', 'post'),
-        },
-        {
-          text: 'Category Page',
-          href: getPermalink('tutorials', 'category'),
-        },
-        {
-          text: 'Tag Page',
-          href: getPermalink('astro', 'tag'),
-        },
-      ],
-    },
-    {
-      text: 'Widgets',
-      href: '#',
+   {
+      text: 'Crypto Markets',
+      links: [{
+        text: ' All Crypto Market', 
+        href: getPermalink('/homes/crypto'),
+      }
+      ]
     },
   ],
-  actions: [{ text: 'Wallet', href: 'https://tangem.com', target: '_blank' }],
+  actions: [{ text: 'Cold Wallet', href: 'https://tangem.com', target: '_blank' }],
 };
 
 export const footerData = {
   links: [
     {
-      title: 'Product',
+      title: 'Buy Crypto',
       links: [
-        { text: 'Features', href: '#' },
-        { text: 'Security', href: '#' },
-        { text: 'Team', href: '#' },
-        { text: 'Enterprise', href: '#' },
-        { text: 'Customer stories', href: '#' },
-        { text: 'Pricing', href: '#' },
-        { text: 'Resources', href: '#' },
+        { text: 'Buy Bitcoin [ BTC ]', href: '#' },
+        { text: 'Buy Ethereum [ ETH ]', href: '#' },
+        { text: 'Buy Ripple [ XRP ]', href: '#' },
+        { text: 'Buy Binance [ BNB ]', href: '#' },
+        { text: 'Buy Solana [ SOL ]', href: '#' },
+        { text: 'Buy Cosmos [ ATOM ]', href: '#' },
+        { text: 'Buy Avalanche [ AVAX ]', href: '#' },
       ],
     },
     {
-      title: 'Platform',
+      title: 'Exchange',
       links: [
-        { text: 'Developer API', href: '#' },
-        { text: 'Partners', href: '#' },
-        { text: 'Atom', href: '#' },
-        { text: 'Electron', href: '#' },
-        { text: 'AstroWind Desktop', href: '#' },
+        { text: 'Exchange Bitcoin [ BTC ]', href: '#' },
+        { text: 'Exchange Ethereum [ ETH ]', href: '#' },
+        { text: 'Exchange Polygon [ POL ]', href: '#' },
+        { text: 'Exchange Solana [ SOL ]', href: '#' },
+        { text: 'Exchange Binance [ BNB ]', href: '#' },
+        { text: 'All Crypto', href: '/homes/crypto' },
+      ],
+    },
+    {
+      title: 'Exchange Pairs',
+      links: [
+        { text: 'BTC to ETH', href: '#' },
+        { text: 'ETH to USDT', href: '#' },
+        { text: 'BNB to SOL', href: '#' },
+        { text: 'XRP to BTC', href: '#' },
+        { text: 'USDC to TRX', href: '#' },
+        { text: 'All Crypto', href: '/homes/crypto' },
       ],
     },
     {
       title: 'Support',
       links: [
-        { text: 'Docs', href: '#' },
-        { text: 'Community Forum', href: '#' },
-        { text: 'Professional Services', href: '#' },
-        { text: 'Skills', href: '#' },
-        { text: 'Status', href: '#' },
-      ],
-    },
-    {
-      title: 'Company',
-      links: [
-        { text: 'About', href: '#' },
-        { text: 'Blog', href: '#' },
-        { text: 'Careers', href: '#' },
-        { text: 'Press', href: '#' },
-        { text: 'Inclusion', href: '#' },
-        { text: 'Social Impact', href: '#' },
-        { text: 'Shop', href: '#' },
+        { text: 'FAQ', href: '#' },
+        { text: 'How it Work', href: '#' },
+        { text: 'Glossary', href: '#' },
+        { text: 'Contac Us', href: '#' },
+        { text: 'Help Center', href: '#' },
+        { text: 'Status Page', href: '#' },
+        { text: 'Saka Shop', href: 'https://linktr.ee/reystaking' },
       ],
     },
   ],
@@ -173,10 +184,10 @@ export const footerData = {
     { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
-    { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
+    { ariaLabel: 'RSS', icon: 'tabler:rss', href:'#'},
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/' },
   ],
   footNote: `
-    Made by <a class="text-blue-600 underline dark:text-muted" href="https://reyhub.com"> Rey</a> · 2025 Skyro.xyz All Rights Reserved.
+    Made by <a class="text-blue-600 underline dark:text-muted" href="https://reyhub.com"> Rey</a> ·2025 Saka.Exchange  All Rights Reserved.
   `,
 };
