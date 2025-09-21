@@ -10,7 +10,7 @@ site:
 metadata:
   title:
     default: 
-    template: '%s — AstroWind'
+    template: '%s — Skyro'
   description: "\U0001F680 Fast Crypto Exchange, The average time for exchange is about 2 minutes, You can track the crypto swap progress on the exchange page."
   
   robots:
