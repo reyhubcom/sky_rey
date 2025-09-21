@@ -1,5 +1,5 @@
 site:
-  name: 
+  name: Skyro.xyz
   site: 'https://skyrey.vercel.app'
   base: '/'
   trailingSlash: false
@@ -9,7 +9,7 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
+    default: 
     template: '%s — AstroWind'
   description: "\U0001F680 Fast Crypto Exchange, The average time for exchange is about 2 minutes, You can track the crypto swap progress on the exchange page."
   
