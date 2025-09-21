@@ -188,6 +188,6 @@ export const footerData = {
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/' },
   ],
   footNote: `
-    Made by <a class="text-blue-600 underline dark:text-muted" href="https://reyhub.com"> Rey</a> ·2025 Saka.Exchange  All Rights Reserved.
+    Made by <a class="text-blue-600 underline dark:text-muted" href="https://reyhub.com"> Rey</a> ·2025 Skyro.xyz  All Rights Reserved.
   `,
 };
