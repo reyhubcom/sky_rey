@@ -1,5 +1,5 @@
 site:
-  name: Skyro.xyz
+  name: 
   site: 'https://skyrey.vercel.app'
   base: '/'
   trailingSlash: false
