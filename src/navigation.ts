@@ -172,7 +172,7 @@ export const footerData = {
         { text: 'Contac Us', href: '#' },
         { text: 'Help Center', href: '#' },
         { text: 'Status Page', href: '#' },
-        { text: 'Saka Shop', href: 'https://linktr.ee/reystaking' },
+        { text: 'Skyro Shop', href: 'https://linktr.ee/reystaking' },
       ],
     },
   ],
