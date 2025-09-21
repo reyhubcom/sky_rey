@@ -1,6 +1,6 @@
 site:
   name: Skyro.xyz
-  site: 'https://skyrey.vercel.app'
+  site: 'https://astrowind.vercel.app'
   base: '/'
   trailingSlash: false
 
@@ -11,8 +11,7 @@ metadata:
   title:
     default: AstroWind
     template: '%s — AstroWind'
-  description: "\U0001F680 Fast Crypto Exchange, The average time for exchange is about 2 minutes, You can track the crypto swap progress on the exchange page."
-  
+  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
   robots:
     index: true
     follow: true
@@ -70,4 +69,4 @@ analytics:
       id: null # or "G-XXXXXXXXXX"
 
 ui:
-  theme: 'system' # Values: "system" | "dark" | "dark" | "dark:only" | "dark:only"
+  theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
